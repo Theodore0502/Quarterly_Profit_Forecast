@@ -1,0 +1,31 @@
+# ---- Python & env ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+ENV/
+.ENV/
+
+# ---- IDE/OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Logs/build ----
+*.log
+dist/
+build/
+.eggs/
+*.egg-info/
+
+# ---- Outputs nặng (tùy bạn) ----
+runs/
+checkpoints/
+models/
+
+# ---- Data ----
+# CHO PHÉP toàn bộ data/
+# (nếu trước đây bạn có "data/*" thì hãy xóa dòng đó)

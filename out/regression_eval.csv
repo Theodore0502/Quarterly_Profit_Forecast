@@ -1,0 +1,4 @@
+fold,rmse,mae,features
+1,922.3361749718088,734.7637142980078,revenue+marketing_cost+cpi
+2,1937.8291720639356,1815.860842879716,revenue+marketing_cost+cpi
+3,1329.0761836994022,1206.2647094209854,revenue+marketing_cost+cpi
