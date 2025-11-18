@@ -10,7 +10,7 @@ def forecast(csv, date_col="Date", y_col="Net_income", freq="QE", horizon=4,
     df = pd.read_csv(csv)
     df[date_col] = pd.to_datetime(df[date_col])
 
-    # Map tần suất; 'Q' cũ => dùng 'QE' (quarter-end)
+    # Map tần suất dùng 'QE' (quarter-end)
     resample_rule = "QE" if freq.upper().startswith("Q") else freq
 
     # Resample về quý và rename cột
